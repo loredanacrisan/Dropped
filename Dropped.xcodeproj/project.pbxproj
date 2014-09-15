@@ -15,6 +15,8 @@
 		FF0FB14A19C6A08E002EEA8D /* DroppedTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF0FB14919C6A08E002EEA8D /* DroppedTests.swift */; };
 		FF0FB15419C6AB73002EEA8D /* CreateAccountRootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF0FB15319C6AB73002EEA8D /* CreateAccountRootViewController.swift */; };
 		FF0FB15619C6ADCB002EEA8D /* CreateAccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF0FB15519C6ADCB002EEA8D /* CreateAccountViewController.swift */; };
+		FF0FB15819C6B33C002EEA8D /* SignInRootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF0FB15719C6B33C002EEA8D /* SignInRootViewController.swift */; };
+		FF0FB15A19C6B3ED002EEA8D /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF0FB15919C6B3ED002EEA8D /* SignInViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +42,8 @@
 		FF0FB14919C6A08E002EEA8D /* DroppedTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DroppedTests.swift; sourceTree = "<group>"; };
 		FF0FB15319C6AB73002EEA8D /* CreateAccountRootViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateAccountRootViewController.swift; sourceTree = "<group>"; };
 		FF0FB15519C6ADCB002EEA8D /* CreateAccountViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateAccountViewController.swift; sourceTree = "<group>"; };
+		FF0FB15719C6B33C002EEA8D /* SignInRootViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInRootViewController.swift; sourceTree = "<group>"; };
+		FF0FB15919C6B3ED002EEA8D /* SignInViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +88,8 @@
 				FF0FB13319C6A08E002EEA8D /* AppDelegate.swift */,
 				FF0FB13519C6A08E002EEA8D /* ViewController.swift */,
 				FF0FB13719C6A08E002EEA8D /* Main.storyboard */,
+				FF0FB15919C6B3ED002EEA8D /* SignInViewController.swift */,
+				FF0FB15719C6B33C002EEA8D /* SignInRootViewController.swift */,
 				FF0FB15519C6ADCB002EEA8D /* CreateAccountViewController.swift */,
 				FF0FB15319C6AB73002EEA8D /* CreateAccountRootViewController.swift */,
 				FF0FB13A19C6A08E002EEA8D /* Images.xcassets */,
@@ -218,7 +224,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FF0FB15819C6B33C002EEA8D /* SignInRootViewController.swift in Sources */,
 				FF0FB15619C6ADCB002EEA8D /* CreateAccountViewController.swift in Sources */,
+				FF0FB15A19C6B3ED002EEA8D /* SignInViewController.swift in Sources */,
 				FF0FB15419C6AB73002EEA8D /* CreateAccountRootViewController.swift in Sources */,
 				FF0FB13619C6A08E002EEA8D /* ViewController.swift in Sources */,
 				FF0FB13419C6A08E002EEA8D /* AppDelegate.swift in Sources */,
