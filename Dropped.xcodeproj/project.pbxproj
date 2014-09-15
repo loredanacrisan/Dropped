@@ -18,6 +18,7 @@
 		FF0FB15819C6B33C002EEA8D /* SignInRootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF0FB15719C6B33C002EEA8D /* SignInRootViewController.swift */; };
 		FF0FB15A19C6B3ED002EEA8D /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF0FB15919C6B3ED002EEA8D /* SignInViewController.swift */; };
 		FF0FB15C19C6BDF3002EEA8D /* TermsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF0FB15B19C6BDF3002EEA8D /* TermsViewController.swift */; };
+		FF0FB15E19C6C66B002EEA8D /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF0FB15D19C6C66B002EEA8D /* SettingsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +47,7 @@
 		FF0FB15719C6B33C002EEA8D /* SignInRootViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInRootViewController.swift; sourceTree = "<group>"; };
 		FF0FB15919C6B3ED002EEA8D /* SignInViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
 		FF0FB15B19C6BDF3002EEA8D /* TermsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TermsViewController.swift; sourceTree = "<group>"; };
+		FF0FB15D19C6C66B002EEA8D /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +92,7 @@
 				FF0FB13319C6A08E002EEA8D /* AppDelegate.swift */,
 				FF0FB13519C6A08E002EEA8D /* ViewController.swift */,
 				FF0FB13719C6A08E002EEA8D /* Main.storyboard */,
+				FF0FB15D19C6C66B002EEA8D /* SettingsViewController.swift */,
 				FF0FB15B19C6BDF3002EEA8D /* TermsViewController.swift */,
 				FF0FB15919C6B3ED002EEA8D /* SignInViewController.swift */,
 				FF0FB15719C6B33C002EEA8D /* SignInRootViewController.swift */,
@@ -234,6 +237,7 @@
 				FF0FB13619C6A08E002EEA8D /* ViewController.swift in Sources */,
 				FF0FB13419C6A08E002EEA8D /* AppDelegate.swift in Sources */,
 				FF0FB15C19C6BDF3002EEA8D /* TermsViewController.swift in Sources */,
+				FF0FB15E19C6C66B002EEA8D /* SettingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
