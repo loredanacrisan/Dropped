@@ -13,6 +13,8 @@
 		FF0FB13B19C6A08E002EEA8D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF0FB13A19C6A08E002EEA8D /* Images.xcassets */; };
 		FF0FB13E19C6A08E002EEA8D /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = FF0FB13C19C6A08E002EEA8D /* LaunchScreen.xib */; };
 		FF0FB14A19C6A08E002EEA8D /* DroppedTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF0FB14919C6A08E002EEA8D /* DroppedTests.swift */; };
+		FF0FB15419C6AB73002EEA8D /* CreateAccountRootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF0FB15319C6AB73002EEA8D /* CreateAccountRootViewController.swift */; };
+		FF0FB15619C6ADCB002EEA8D /* CreateAccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF0FB15519C6ADCB002EEA8D /* CreateAccountViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +38,8 @@
 		FF0FB14319C6A08E002EEA8D /* DroppedTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DroppedTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FF0FB14819C6A08E002EEA8D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FF0FB14919C6A08E002EEA8D /* DroppedTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DroppedTests.swift; sourceTree = "<group>"; };
+		FF0FB15319C6AB73002EEA8D /* CreateAccountRootViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateAccountRootViewController.swift; sourceTree = "<group>"; };
+		FF0FB15519C6ADCB002EEA8D /* CreateAccountViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateAccountViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +84,8 @@
 				FF0FB13319C6A08E002EEA8D /* AppDelegate.swift */,
 				FF0FB13519C6A08E002EEA8D /* ViewController.swift */,
 				FF0FB13719C6A08E002EEA8D /* Main.storyboard */,
+				FF0FB15519C6ADCB002EEA8D /* CreateAccountViewController.swift */,
+				FF0FB15319C6AB73002EEA8D /* CreateAccountRootViewController.swift */,
 				FF0FB13A19C6A08E002EEA8D /* Images.xcassets */,
 				FF0FB13C19C6A08E002EEA8D /* LaunchScreen.xib */,
 				FF0FB13119C6A08E002EEA8D /* Supporting Files */,
@@ -212,6 +218,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FF0FB15619C6ADCB002EEA8D /* CreateAccountViewController.swift in Sources */,
+				FF0FB15419C6AB73002EEA8D /* CreateAccountRootViewController.swift in Sources */,
 				FF0FB13619C6A08E002EEA8D /* ViewController.swift in Sources */,
 				FF0FB13419C6A08E002EEA8D /* AppDelegate.swift in Sources */,
 			);
@@ -336,7 +344,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = Dropped/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -346,7 +356,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = Dropped/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
