@@ -20,6 +20,10 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
+    @IBAction func goToNext(sender: UISwipeGestureRecognizer) {
+        
+        performSegueWithIdentifier("welcome2", sender: self)
+    }
 
 }
 

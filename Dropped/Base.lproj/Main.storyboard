@@ -20,11 +20,13 @@
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="Yce-NN-pMT">
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <gestureRecognizers/>
                                 <state key="normal">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="eBU-nq-2Kg" kind="modal" modalTransitionStyle="crossDissolve" id="Ta1-B6-zrz"/>
+                                    <outletCollection property="gestureRecognizers" destination="yWm-hU-ZHi" appends="YES" id="XDH-HF-zAE"/>
+                                    <segue destination="eBU-nq-2Kg" kind="modal" identifier="welcome2" modalTransitionStyle="crossDissolve" id="Ta1-B6-zrz"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -32,6 +34,11 @@
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
+                <swipeGestureRecognizer direction="right" id="yWm-hU-ZHi">
+                    <connections>
+                        <action selector="goToNext:" destination="vXZ-lx-hvc" id="tXS-VI-bPQ"/>
+                    </connections>
+                </swipeGestureRecognizer>
             </objects>
             <point key="canvasLocation" x="162.66666666666666" y="361.62666666666667"/>
         </scene>
@@ -758,11 +765,11 @@
             <objects>
                 <viewController id="Fvl-ni-AYn" userLabel="ExistingPhotos" customClass="ExistingPhotosViewController" customModule="Dropped" customModuleProvider="target" sceneMemberID="viewController">
                     <scrollView key="view" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" id="mll-Vz-edJ">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="504"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="existing_photos" id="gdy-fj-FlQ">
-                                <rect key="frame" x="0.0" y="0.0" width="320" height="661"/>
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="725"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                             </imageView>
                         </subviews>
@@ -849,15 +856,15 @@
             <objects>
                 <viewController id="ZOU-TM-TjC" userLabel="Item 4" customClass="SettingsViewController" customModule="Dropped" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="N9s-tz-DSn">
-                        <rect key="frame" x="0.0" y="64" width="320" height="887"/>
+                        <rect key="frame" x="0.0" y="64" width="320" height="1000"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" id="wPH-cC-Uur">
-                                <rect key="frame" x="0.0" y="0.0" width="320" height="887"/>
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="1000"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                 <subviews>
                                     <imageView userInteractionEnabled="NO" contentMode="top" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="settings" id="E4R-l7-i2k">
-                                        <rect key="frame" x="0.0" y="0.0" width="320" height="772"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="320" height="870"/>
                                         <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxX="YES" heightSizable="YES" flexibleMaxY="YES"/>
                                     </imageView>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="w1h-oA-AbC">
