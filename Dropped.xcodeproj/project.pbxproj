@@ -20,7 +20,6 @@
 		FF0FB15C19C6BDF3002EEA8D /* TermsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF0FB15B19C6BDF3002EEA8D /* TermsViewController.swift */; };
 		FF0FB15E19C6C66B002EEA8D /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF0FB15D19C6C66B002EEA8D /* SettingsViewController.swift */; };
 		FF8BFB9F19C7C2BA00C28394 /* ExistingPhotosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF8BFB9E19C7C2BA00C28394 /* ExistingPhotosViewController.swift */; };
-		FF8BFBA319C7D11D00C28394 /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF8BFBA219C7D11D00C28394 /* WelcomeViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,7 +50,6 @@
 		FF0FB15B19C6BDF3002EEA8D /* TermsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TermsViewController.swift; sourceTree = "<group>"; };
 		FF0FB15D19C6C66B002EEA8D /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 		FF8BFB9E19C7C2BA00C28394 /* ExistingPhotosViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExistingPhotosViewController.swift; sourceTree = "<group>"; };
-		FF8BFBA219C7D11D00C28394 /* WelcomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,7 +94,6 @@
 				FF0FB13319C6A08E002EEA8D /* AppDelegate.swift */,
 				FF0FB13519C6A08E002EEA8D /* ViewController.swift */,
 				FF0FB13719C6A08E002EEA8D /* Main.storyboard */,
-				FF8BFBA219C7D11D00C28394 /* WelcomeViewController.swift */,
 				FF8BFB9E19C7C2BA00C28394 /* ExistingPhotosViewController.swift */,
 				FF0FB15D19C6C66B002EEA8D /* SettingsViewController.swift */,
 				FF0FB15B19C6BDF3002EEA8D /* TermsViewController.swift */,
@@ -237,7 +234,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				FF0FB15819C6B33C002EEA8D /* SignInRootViewController.swift in Sources */,
-				FF8BFBA319C7D11D00C28394 /* WelcomeViewController.swift in Sources */,
 				FF0FB15619C6ADCB002EEA8D /* CreateAccountViewController.swift in Sources */,
 				FF0FB15A19C6B3ED002EEA8D /* SignInViewController.swift in Sources */,
 				FF8BFB9F19C7C2BA00C28394 /* ExistingPhotosViewController.swift in Sources */,
