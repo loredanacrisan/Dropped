@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		FF0FB13419C6A08E002EEA8D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF0FB13319C6A08E002EEA8D /* AppDelegate.swift */; };
-		FF0FB13619C6A08E002EEA8D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF0FB13519C6A08E002EEA8D /* ViewController.swift */; };
 		FF0FB13919C6A08E002EEA8D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF0FB13719C6A08E002EEA8D /* Main.storyboard */; };
 		FF0FB13B19C6A08E002EEA8D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF0FB13A19C6A08E002EEA8D /* Images.xcassets */; };
 		FF0FB13E19C6A08E002EEA8D /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = FF0FB13C19C6A08E002EEA8D /* LaunchScreen.xib */; };
@@ -36,7 +35,6 @@
 		FF0FB12E19C6A08E002EEA8D /* Dropped.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Dropped.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FF0FB13219C6A08E002EEA8D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FF0FB13319C6A08E002EEA8D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		FF0FB13519C6A08E002EEA8D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		FF0FB13819C6A08E002EEA8D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FF0FB13A19C6A08E002EEA8D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		FF0FB13D19C6A08E002EEA8D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
@@ -92,7 +90,6 @@
 			isa = PBXGroup;
 			children = (
 				FF0FB13319C6A08E002EEA8D /* AppDelegate.swift */,
-				FF0FB13519C6A08E002EEA8D /* ViewController.swift */,
 				FF0FB13719C6A08E002EEA8D /* Main.storyboard */,
 				FF8BFB9E19C7C2BA00C28394 /* ExistingPhotosViewController.swift */,
 				FF0FB15D19C6C66B002EEA8D /* SettingsViewController.swift */,
@@ -238,7 +235,6 @@
 				FF0FB15A19C6B3ED002EEA8D /* SignInViewController.swift in Sources */,
 				FF8BFB9F19C7C2BA00C28394 /* ExistingPhotosViewController.swift in Sources */,
 				FF0FB15419C6AB73002EEA8D /* CreateAccountRootViewController.swift in Sources */,
-				FF0FB13619C6A08E002EEA8D /* ViewController.swift in Sources */,
 				FF0FB13419C6A08E002EEA8D /* AppDelegate.swift in Sources */,
 				FF0FB15C19C6BDF3002EEA8D /* TermsViewController.swift in Sources */,
 				FF0FB15E19C6C66B002EEA8D /* SettingsViewController.swift in Sources */,
